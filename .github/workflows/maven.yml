@@ -37,7 +37,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: emilybrtt/reservas:${{ github.sha }}
+        tags: brttemily/reservas:${{ github.sha }}
 
 
     - name: executing remote ssh commands using password
